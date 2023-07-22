@@ -1,3 +1,7 @@
+#My credits go to this person who, with his dedication and daily effort on social networks, has created a great community focused on web development and design with Canvas.
+
+
+
 # Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
 ![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
 

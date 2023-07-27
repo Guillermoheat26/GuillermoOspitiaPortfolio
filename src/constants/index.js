@@ -4,25 +4,13 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
   tripguide,
-  threejs,
   azure,
   csharp,
   java,
@@ -33,6 +21,7 @@ import {
   serfinansa,
   accenture,
   nserio,
+  simpsonapi,
 } from "../assets";
 
 export const navLinks = [
@@ -71,11 +60,11 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML5",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS3",
     icon: css,
   },
   {
@@ -83,7 +72,7 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "React JS",
+    name: "ReactJS",
     icon: reactjs,
   },
   {
@@ -109,7 +98,7 @@ const technologies = [
   {
     name: "Java",
     icon: java,
-  }
+  },
 ];
 
 const experiences = [
@@ -261,7 +250,7 @@ const projects = [
     netlify_link: "https://rickandmortyexampleapi.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Simpson Api Example",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -278,8 +267,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: simpsonapi,
+    source_code_link: "https://github.com/Guillermoheat26/SimpsonApiExample",
+    netlify_link: "https://simpsonapiexample.netlify.app/",
   },
 ];
 

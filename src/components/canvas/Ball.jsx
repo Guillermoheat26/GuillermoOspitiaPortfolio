@@ -45,7 +45,12 @@ const BallCanvas = ({ icon }) => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
+        <OrbitControls enableZoom={false} 
+        minPolarAngle={Math.PI / 4}
+        maxPolarAngle={(3 * Math.PI) / 4}
+        minAzimuthAngle={-Math.PI / 4} // Ángulo mínimo de rotación horizontal (-45 grados)
+        maxAzimuthAngle={Math.PI / 4} //
+        />
         <Ball imgUrl={icon} />
       </Suspense>
 

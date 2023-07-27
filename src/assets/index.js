@@ -17,30 +17,22 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import java from "./tech/java.png";
 import azure from "./tech/azure.png";
 import csharp from "./tech/csharp.png";
 
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
 import consware from "./company/consware.png";
 import bancoserfinanza from "./company/bancoserfinanza.png";
 import serfinansa from "./company/serfinansa.png";
 import accenture from "./company/accenture.png";
 import nserio from "./company/nserio.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import dynamic from "./dynamic.png";
 import rickandmortypng from "./rickandmorty.png";
+import simpsonapi from "./simpsonapi.png";
 
 export {
   logo,
@@ -60,16 +52,6 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
   tripguide,
   java,
   csharp,
@@ -82,4 +64,5 @@ export {
   serfinansa,
   consware,
   nserio,
+  simpsonapi,
 };

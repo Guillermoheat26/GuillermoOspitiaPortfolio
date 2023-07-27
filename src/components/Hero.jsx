@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
+import { EarthCanvas } from "./canvas";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
@@ -19,8 +20,10 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Guillermo</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am developer, user <br className='sm:block hidden' />
-            interfaces and web applications
+          I am a developer specializing in crafting captivating user interfaces and building dynamic web applications. 
+          With a passion for creating seamless user experiences, I thrive on turning ideas into interactive realities.
+            <br className='sm:block hidden' />
+
           </p>
         </div>
       </div>
